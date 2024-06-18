@@ -157,7 +157,11 @@ To submit a blog post follow these directions:
     title: "Your Title Here"
     date: YYYY-MM-DD
     slug: text-for-URL-link-here-no-spaces
-    ---
+    author: >
+      Author-1 (Affiliation),
+      Author-2 (Affiliation),
+      Author-3 (Affiliation)
+    ---  
     ```
 
   - The first or initial commit message should be a short summary of the work being done and

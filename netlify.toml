@@ -19,7 +19,7 @@ HUGO_ENABLEGITINFO = "true"
 command = "git submodule update --init --recursive --depth 1 && make deploy-preview"
 
 [context.branch-deploy]
-command = "git submodule update --init --recursive --depth 1 && make non-production-build"
+command = "git submodule update --int --recursive --depth 1 && make non-production-build"
 
 [context.main]
 # This context is triggered by the `main` branch and allows search indexing
